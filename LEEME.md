@@ -2,15 +2,13 @@
 
 Módulos: **Método Gráfico** (programación lineal con 2 variables) y **Teoría de Colas** (M/M/1 y M/M/s con análisis de costos).
 
-## Opción A: crear el .exe (una sola vez, en Windows)
-1. Instala Python desde python.org marcando **"Add Python to PATH"**.
-2. Descomprime esta carpeta y haz doble clic en `crear_exe.bat`.
-3. Al terminar queda `dist\AplicativoIO.exe`. Ese archivo es el aplicativo: se abre con doble clic en cualquier PC con Windows, sin instalar nada. Es el que se entrega.
-
-## Opción B: ejecutar sin crear el .exe
+## ejecutar
 ```
 py -m pip install -r requirements.txt
 py aplicativo.py
+si sale el error NameError: name 'py' is not defined
+remplaza py con python
+o simplemente ejecutar el archivo aplicativo.py en vscode y tener instalado las librerias numpy y matplotlib
 ```
 
 ## Archivos
